@@ -3,6 +3,7 @@
 A demonstration of the parallel agent architecture using Pydantic AI and LangGraph. This project implements a multi-agent travel planning system that helps users plan their perfect trip through an interactive Streamlit UI.
 Pydantic ai langgraph parallelization
 All resources and guide can be found at: https://github.com/KawaiiHen/ottomator-agents
+test at: https://tripplanne.streamlit.app/
 ![Travel Agent Graph](extras/TravelAgentGraph.png)
 
 ## Overview
