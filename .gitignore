@@ -1,0 +1,76 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.sqlite
+*.db
+.DS_Store
+
+# Ignore environment and credentials files
+.env
+*.secret
+config.yaml
+config.json
+
+# Ignore Streamlit temporary files
+.streamlit/
+.history/
+# Optional: Ignore compiled Streamlit frontend files if applicable
+frontend/build/
+frontend/node_modules/
+
+# Ignore VSCode & JetBrains IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore cache for data processing
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pickle
+
+# Ignore API keys and sensitive credentials
+config.ini
+secrets.toml
+
+# Ignore model weights or large files
+models/
+*.ckpt
+*.hdf5
+*.onnx
+*.tflite
+
+# Ignore all node_modules (if you use JS for frontend)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Python packaging artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore OpenAI / LLM API keys & config files
+.env
+llm_config.json
+llm_config.yaml
+
+# Ignore temporary files
+*.swp
+*.swo
